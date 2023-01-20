@@ -10,11 +10,11 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "5775428780:AAFUhpHCqSj2CVr4fghHM80iW3Kq-fTP-L8")
+    TOKEN = getenv("TOKEN", "5955204118:AAH4hbCzi51OLMKWQxiJTje5o1zUq6v_Zx8")
     OWNER_ID = getenv("OWNER_ID", "5887336213")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "5634468517")
-    STRING_SESSION = getenv("STRING_SESSION", "1AZWarzgBuzaFaI2jajRvs2g0wpVUck6Z4ZfA6DlAK4tfV7XRkNOtfCdlgCMk_eBDbWaw5hyMIGlEdULF0pyDev-Anv-1q6PgdzL59WTw6vH5OBOCAu3SCuk7XDC9-f-1LCNqmfbHaXlrq1UgzIfAGe21UM9aJ4ALdImgFzIYqpQMv3Pab36VUlujvUns4VGPfO-8LHo5pHtA7gUmLRpNjG3G4TLTBOSZtdTM0fr6_CZzv7zgl3xugSxYFP-PcT3O54W3HAYGJ3hZRFER4YUxsjwXQwdDtCOOA9eSUlHuqB83mCCqOkmRAe2KpdYFGdoYLigHpLe2-T1P6zPRNWFkK8XxdO1SrMc=") #telethon
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "heart_killer_XD")
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "5887336213")
+    STRING_SESSION = getenv("STRING_SESSION", 1AZWarzcBu7X9VrRRIyvgf3Q787TFLS2kuIOLnArqfwaSKOFjuM9QYY8Xlw2zzncBBfAbkTasVAq3iaepPvRbUVlcNUHZSzlIZAYXpWeaytBPbRzvKfw1qB16_HwgdHy9u4dShsr92GZSN4Xq4x5jt0gpdSYnjythpDenccY_2nX5fecNNnLiJSruc2HZdCrkONJSHCJg9H2Uiso5HLz0DWLh_vdXXiKgUvdzsTzSkW7Q0QYrWCstr3VkzH7T8Gv6dimRcV9nF8CBbQwtYyWkhErWhjXrTvMnQgE4lBo69sPVc0bCWs6nN9ANmMVYpRVaTwjPRPIuwmL2-F1xw0uoawSb7Cp3NOc=") #telethon
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "ITS_SILENCER_BABU")
     DB_URI = getenv("DATABASE_URL", "mongodb://ud7kcz6totsvepy86bb2:d4gmTfoBbpzDmNLzItwG@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/b0ojwj6pcvvj30u?replicaSet=rs0")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
